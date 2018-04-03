@@ -2,31 +2,31 @@ PYTHON VERSION 2.7.13
 
 Following is the description of directory structure:
 
-\_ input
-	\__ demo.psv
-	\__ demo_sorted.psv* 
-	\__ events.psv
-	\__ events_sorted.psv*
-\_ output
-	\__patients
-		\_ <patient_id>.json* 
-	\__ final_stats.json* (-> contains expected stats data)
-\_ src
-	\__events.py
-	\__ generate_stats.py
-	\__merge_tables.py
-	\__ patient.py
-\_ tests
-	\_ input
-		\__ demo.psv
-		\__ demo_sorted.psv* 
-		\__ events.psv
-		\__ events_sorted.psv*
-	\_ output
-	    \__patients
-			\_ <patient_id>.json* 
-		\__ final_stats.json* (-> contains expected stats data)
-	\_ test.py 
+_ input
+	__ demo.psv
+	__ demo_sorted.psv* 
+	__ events.psv
+	__ events_sorted.psv*
+_ output
+	__ patients
+		_ <patient_id>.json* 
+	__ final_stats.json* (-> contains expected stats data)
+_ src
+	__ events.py
+	__ generate_stats.py
+	__ merge_tables.py
+	__ patient.py
+_ tests
+	_ input
+		__ demo.psv
+		__ demo_sorted.psv* 
+		__ events.psv
+		__ events_sorted.psv*
+	_ output
+	    __ patients
+			_ <patient_id>.json* 
+		__ final_stats.json* (-> contains expected stats data)
+	_ test.py 
  README.md
  run_me.sh
 
@@ -40,5 +40,4 @@ Steps to run the code:
 2. ./run_me.sh
 
 Steps to run the test cases:
-1. cd lumiata_take_home/tests/
-2. python test.py
+1. python test.py
