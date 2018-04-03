@@ -1,0 +1,19 @@
+{
+    "male_patients": 162, 
+    "total_valid_patients": 352, 
+    "AGE": [
+        {
+            "Max": 92.10958904109589, 
+            "Median": 62.83013698630137, 
+            "Min": 2.0547945205479454
+        }
+    ], 
+    "female_patients": 190, 
+    "TIMELINE": [
+        {
+            "Max": 984, 
+            "Median": 0.0, 
+            "Min": 0
+        }
+    ]
+}
